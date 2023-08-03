@@ -61,6 +61,6 @@ then get `http://localhost:8000/search?q=啊对对对是什么梗&max_results=3`
 ```bash
 git clone https://github.com/Hk-Gosuto/ddg-api.git
 cd ddg-api
-python3 -m venv myenv && source myenv/bin/activate && pip install -r requirements.txt
+pip install -r requirements.txt
 gunicorn -b 0.0.0.0:8000 app:app
 ```
